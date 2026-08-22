@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #fafafa; color: #111; margin: 0; }
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; border-bottom: 1px solid #eee; }
+.logo { font-weight: 800; font-size: 1.3rem; }
+nav span { margin-left: 2rem; color: #555; font-size: 0.95rem; }
+.hackathon-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
+.hackathon-tile { background: #fff; border: 1px solid #eee; border-radius: 14px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.hackathon-title { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.hackathon-org, .hackathon-location { color: #777; font-size: 0.9rem; margin: 0.25rem 0; }
+.hackathon-prize { color: #16a34a; font-weight: bold; margin: 0.5rem 0; }
+.hackathon-tags { display: flex; gap: 0.4rem; margin: 0.5rem 0; flex-wrap: wrap; }
+.tag { background: #f0f0f0; padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.75rem; }
+.hackathon-deadline { font-size: 0.85rem; color: #d97706; margin: 0.5rem 0; }
+.hackathon-link { color: #2563eb; text-decoration: none; font-size: 0.9rem; }
